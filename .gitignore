@@ -1,0 +1,14 @@
+# Ignore Magento's vendor directory
+/vendor/
+/node_modules/
+/generated/
+/var/
+
+# Ignore sensitive files (local configuration and secrets)
+app/etc/local.xml
+
+# Ignore backup or dump files
+*.tar.gz
+*.zip
+*.sql
+*.log
